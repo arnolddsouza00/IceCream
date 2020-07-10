@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<title>Game of Cones</title>
+	<link rel="icon" href="ice-cream.png">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="first.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+	<style>
+	body {
+	  background-image: url('ice-cream-bg.jpg');
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+	  background-size: cover;
+	}
+	</style>
+</head>
+
+<body style="padding-top: 100px;">
+	<nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
+		<a class="logo-text" href="#" title="Game of Cones"><img class="logo-pic" src="ice-cream.png" width="40px" height="40px" title="Game of Cones">Game of Cones</a>
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#" title="Home">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#" title="Link">Link</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Dropdown">
+							Dropdown
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#" title="Action">Action</a>
+							<a class="dropdown-item" href="#" title="Another action">Another action</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#" title="Another another action">Another another action</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#" title="Disabled">Disabled</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-warning my-2 my-sm-0" type="submit" title="Search"><i class="fa fa-search" style="color:white;"></i></button>
+				</form>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container-fluid" style="padding-left:20px; padding-right:20px">
+		<div class="row">
+			<div class="col-md-6">
+				<img src="rainbow-ice-cream.png" align="justify" style="width:100%; height:auto; text-align:center; padding-left:20px;" title="Ice-cream"/>
+			</div>
+			<div class="col-lg-6">
+				<h1>The Invention of Ice Cream</h1>
+				<p style="font-size:20px; color:black;" class="text-justify">
+					Murdoch had just tied him back up to his pole when he heard a ringing noise. He turned his head to see what it was. Just then a wee girl shouted, "It’s the ice cream man!" Norton watched as half the children on the beach dashed towards him.
+					He was riding on a large tricycle with a box on front, filled with ice creams. He was ringing his bell to let all the children know he was there. The wee girl came back carrying a chocolate-covered vanilla ice cream on a stick. It was so
+					hot that it was already dripping down her hands. She licked it off and then bit into the ice cream. The chocolate broke into big chunks as she gobbled it down. Norton wished that he could have a bite. It looked delicious and refreshing.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid" style="padding-left:20px; padding-right:20px">
+		<div class="container”>
+			<div class=" container” style="padding:15px;">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="btn-group-vertical" style="width:100%;">
+						<button type="button" name="button" class="button button1" title="Button1" style="width:100%">Button1</button>
+						<button type="button" name="button" class="button button2" title="Button2" style="width:100%">Button2</button>
+						<button type="button" name="button" class="button button3" title="Button3" style="width:100%">Button3</button>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<img src="ice-cream-sausage.jpg" width="100%" title="Yum!">
+				</div>
+				<div class="col-md-2">
+					<h3>"I prefer it in sausage form"</h3>
+					<p><i>-Mr. Ordinary Sausage on ice-cream</i></p>
+				</div>
+				<div class="col-md-4">
+					<form action="#" class="was-validated">
+						<div class="form-group">
+							<label for="uname">
+								<h3>Username:</h3>
+							</label>
+							<input type="email" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+							<div class="valid-feedback">Valid.</div>
+							<div class="invalid-feedback">Required</div>
+						</div>
+						<div class="form-group">
+							<label for="pwd">
+								<h3>Password:</h3>
+							</label>
+							<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+							<div class="valid-feedback">Valid.</div>
+							<div class="invalid-feedback">Required</div>
+							<div>
+							<a href="" class="forgot-password" ="btn btn-info" role="button" title="Forgot password?">Forgot password?</a>
+						</div>
+							<button type="submit" class="button submit" title="Submit">Submit</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</html>
